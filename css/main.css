@@ -1,0 +1,33 @@
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.cont {
+	width: 616px;
+	height: 608px;
+	margin: auto;
+	background-color: tomato;
+	margin-top: 100px;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition: all .24s;
+	-o-transition: all .24s;
+	transition: all .24s;
+}
+
+
+.zero-id {
+	background: white url('../img/zero.png') no-repeat center;
+}
+
+.x-id {
+	background: white url('../img/X.png') no-repeat center;
+}
